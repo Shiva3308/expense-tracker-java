@@ -4,8 +4,8 @@ import java.time.format.DateTimeFormatter;
 import java.util.*;
 
 class Transaction {
-    String type;       // income or expense
-    String category;   // salary, food, rent, etc.
+    String type;       
+    String category;
     LocalDate date;
     double amount;
 
